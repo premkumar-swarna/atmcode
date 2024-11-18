@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./photo/nature.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.atm-container {
+    width: 320px;
+    padding: 20px;
+    opacity: 1;
+    border-radius: 8px;
+    border: 2px solid black;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.atm-screen {
+    margin-bottom: 20px;
+}
+
+.atm-keypad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.atm-actions {
+    margin-top: 20px;
+}
+
+#balanceDiv {
+    margin-top: 20px;
+    font-size: 18px;
+}
+h2{
+    color: black;
+}
+
